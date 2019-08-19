@@ -15,7 +15,13 @@ Route::get('/', 'LinksController@index')->name('home');
 Route::get('/contact','LinksController@contact')->name('contact');
 Route::get('/about','LinksController@about')->name('about');
 Route::get('/services','LinksController@services')->name('services');
-Route::get('/product','LinksController@product')->name('product');
+
+Route::prefix('products')->group(function () {
+    Route::get('/','LinksController@products')->name('products');
+    Route::get('/{id}','LinksController@product')->name('product');
+});
+
+
 
 Auth::routes();
 Route::group(['prefix' => 'admin'], function () {

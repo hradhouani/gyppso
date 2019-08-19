@@ -1220,7 +1220,7 @@ figure:focus figcaption {
   top: 0;
   left: 0;
   width: 100%;
-  background: #22eaaa;
+  background: rgba(43, 37, 37, 0.8);
   transition: 0.2s all ease-out;
 }
 

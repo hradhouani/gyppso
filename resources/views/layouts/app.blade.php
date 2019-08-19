@@ -3,15 +3,18 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>uiCookies:Virb &mdash; Free Bootstrap Theme, Free Responsive Bootstrap Website Template</title>
-    <meta name="description" content="Free Bootstrap Theme by uicookies.com">
-    <meta name="keywords"
-          content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+    <title>{{config('app.name','')}} | {{\Request::route()->getName()}}</title>
+    <meta name="description" content="{{config('APP_NAME')}}">
+    <meta name="keywords" content="">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
-    <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
-    <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI=" crossorigin="anonymous" />
+    <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css"
+          rel="stylesheet"/>
+    <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.css" type="text/css"
+          rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+          integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI=" crossorigin="anonymous"/>
 
     <link rel="stylesheet" href="{{asset('css/styles-merged.css')}}">
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
@@ -23,7 +26,7 @@
     <![endif]-->
 </head>
 <body>
-
+<div id="app">
 <!-- START: header -->
 
 <div class="probootstrap-loader"></div>
@@ -37,11 +40,16 @@
 
         <nav role="navigation" class="probootstrap-nav hidden-xs">
             <ul class="probootstrap-main-nav">
-                <li class="{{ (\Request::route()->getName() == 'home') ? 'active' : '' }}"><a href="{{route('home')}}">Home</a></li>
-                <li class="{{ (\Request::route()->getName() == 'products') ? 'active' : '' }}"><a href="{{url('products')}}">Portfolio</a></li>
-                <li class="{{ (\Request::route()->getName() == 'services') ? 'active' : '' }}"><a href="{{route('services')}}">Services</a></li>
-                <li class="{{ (\Request::route()->getName() == 'about') ? 'active' : '' }}"><a href="{{route('about')}}">About</a></li>
-                <li class="{{ (\Request::route()->getName() == 'contact') ? 'active' : '' }}"><a href="{{route('contact')}}">Contact</a></li>
+                <li class="{{ (\Request::route()->getName() == 'home') ? 'active' : '' }}"><a href="{{route('home')}}">Home</a>
+                </li>
+                <li class="{{ (\Request::route()->getName() == 'products') ? 'active' : '' }}"><a
+                        href="{{url('products')}}">Products</a></li>
+                <li class="{{ (\Request::route()->getName() == 'services') ? 'active' : '' }}"><a
+                        href="{{route('services')}}">Services</a></li>
+                <li class="{{ (\Request::route()->getName() == 'about') ? 'active' : '' }}"><a
+                        href="{{route('about')}}">About</a></li>
+                <li class="{{ (\Request::route()->getName() == 'contact') ? 'active' : '' }}"><a
+                        href="{{route('contact')}}">Contact</a></li>
             </ul>
             <ul class="probootstrap-right-nav hidden-xs">
                 <li><a href="#"><i class="icon-twitter"></i></a></li>
@@ -137,14 +145,16 @@
 <div class="gototop js-top">
     <a href="#" class="js-gotop"><i class="icon-chevron-thin-up"></i></a>
 </div>
-
-
+</div>
+<script src="{{asset('js/app.js')}}"></script>
 <script src="{{asset('js/scripts.min.js')}}"></script>
 <script src="{{asset('js/main.min.js')}}"></script>
 <script src="{{asset('js/custom.js')}}"></script>
 
-<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript"
+        charset="utf-8"></script>
+<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.js" type="text/javascript"
+        charset="utf-8"></script>
 
 @yield('js')
 
