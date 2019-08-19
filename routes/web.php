@@ -17,8 +17,13 @@ Route::get('/about','LinksController@about')->name('about');
 Route::get('/services','LinksController@services')->name('services');
 
 Route::prefix('products')->group(function () {
-    Route::get('/','LinksController@products')->name('products');
-    Route::get('/{id}','LinksController@product')->name('product');
+    Route::get('/','ProductController@index')->name('products');
+    Route::get('/{id}','ProductController@show')->name('product');
+});
+
+Route::prefix('blog')->group(function () {
+    Route::get('/','BlogController@index')->name('blog.index');
+    Route::get('/{id}','BlogController@show')->name('blog.show');
 });
 
 
