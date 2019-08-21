@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- Site made with Mobirise Website Builder v3.12.1, https://mobirisethemes.com -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="generator" content="Mobirise v3.12.1, mobirisethemes.com">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="/soon/assets/images/logo.png" type="image/x-icon">
-    <meta name="description" content="Website Builder Description">
-    <title>Website Builder Title</title>
+    <meta name="description" content="Comming soon">
+    <title>COMING SOON</title>
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;subset=latin">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
