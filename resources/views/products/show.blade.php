@@ -31,36 +31,41 @@
                             <div class="mySlides w-100">
                                 <div class="numbertext">{{$i+1}} / {{count(json_decode($product->gallery))}}</div>
                                 <a href="#" data-featherlight="{{ Voyager::image($image) }}"> <img
-                                        src="{{ Voyager::image($product->getThumbnail($image, 'medium')) }}" style="width:100%"></a>
+                                        src="{{ Voyager::image($product->getThumbnail($image, 'medium')) }}"
+                                        style="width:100%"></a>
                             </div>
 
-                    @endforeach
+                        @endforeach
 
 
-                    <a class="prev" onclick="plusSlides(-1)">❮</a>
-                    <a class="next" onclick="plusSlides(1)">❯</a>
+                        <a class="prev" onclick="plusSlides(-1)">❮</a>
+                        <a class="next" onclick="plusSlides(1)">❯</a>
+                    </div>
+                    <div class="row px-3">
+                        @foreach(json_decode($product->gallery) as $i => $image)
+                            <div class="col p-0">
+                                <img class="demo cursor"
+                                     src="{{ Voyager::image($product->getThumbnail($image, 'cropped')) }}"
+                                     style="width:100%" onclick="currentSlide({{$i+1}})" alt="The Woods">
+                            </div>
+                        @endforeach
+
+                    </div>
+
+
                 </div>
-                <div class="row px-3">
-                    @foreach(json_decode($product->gallery) as $i => $image)
-                        <div class="col p-0">
-                            <img class="demo cursor"
-                                 src="{{ Voyager::image($product->getThumbnail($image, 'cropped')) }}"
-                                 style="width:100%" onclick="currentSlide({{$i+1}})" alt="The Woods">
-                        </div>
-                    @endforeach
-
+                <div class="col-md-4">
+                    {!! $product->body !!}
                 </div>
-
-
             </div>
-            <div class="col-md-4">
-             {!! $product->body !!}
-            </div>
-        </div>
 
         </div>
     </section>
-
+    <section class="probootstrap-section">
+        <div class="container">
+            <div id="disqus_thread"></div>
+        </div>
+    </section>
 
 
 @endsection

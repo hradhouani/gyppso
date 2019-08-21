@@ -44,7 +44,7 @@
                             <h3 class="heading">Business Strategy</h3>
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
                                 there live the blind texts. </p>
-                            <p><a href="single-page.html">Learn more</a></p>
+                            <p><a href="#">Learn more</a></p>
                         </div>
 
                     </div>
@@ -58,7 +58,7 @@
                             <h3 class="heading">Business Marketing</h3>
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
                                 there live the blind texts. </p>
-                            <p><a href="single-page.html">Learn more</a></p>
+                            <p><a href="#">Learn more</a></p>
                         </div>
                     </div>
                 </div>
@@ -71,7 +71,7 @@
                             <h3 class="heading">Business Profit</h3>
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
                                 there live the blind texts. </p>
-                            <p><a href="single-page.html">Learn more</a></p>
+                            <p><a href="#">Learn more</a></p>
                         </div>
                     </div>
                 </div>
@@ -80,50 +80,63 @@
     </section>
     <!-- END section -->
 
-    <section class="probootstrap-section">
+    <section class="probootstrap-section probootstrap-section-lighter">
         <div class="container">
-
             <div class="row">
                 <div class="col-md-3 p-1">
-                    <a href="#" data-featherlight="https://www.w3schools.com/w3images/wedding.jpg"> <img
-                            class="img-responsive pb-2" src="https://www.w3schools.com/w3images/wedding.jpg"></a>
-                    <a href="#" data-featherlight="https://www.w3schools.com/w3images/rocks.jpg"> <img
-                            class="img-responsive pb-2" src="https://www.w3schools.com/w3images/rocks.jpg"></a>
-                    <a href="#" data-featherlight="https://www.w3schools.com/w3images/falls2.jpg"> <img
-                            class="img-responsive pb-2" src="https://www.w3schools.com/w3images/falls2.jpg"></a>
+                    <a href="#" data-featherlight="https://www.w3schools.com/w3images/wedding.jpg">
+                        <img class="img-responsive pb-2" src="https://www.w3schools.com/w3images/wedding.jpg">
+                    </a>
+                    <a href="#" data-featherlight="https://www.w3schools.com/w3images/rocks.jpg">
+                        <img class="img-responsive pb-2" src="https://www.w3schools.com/w3images/rocks.jpg">
+                    </a>
+                    <a href="#" data-featherlight="https://www.w3schools.com/w3images/falls2.jpg">
+                        <img class="img-responsive pb-2" src="https://www.w3schools.com/w3images/falls2.jpg">
+                    </a>
 
 
                 </div>
                 <div class="col-md-3 p-1">
-                    <a href="#" data-featherlight="https://www.w3schools.com/w3images/underwater.jpg"> <img
-                            class="img-responsive pb-2" src="https://www.w3schools.com/w3images/underwater.jpg"></a>
-                    <a href="#" data-featherlight="https://www.w3schools.com/w3images/ocean.jpg"> <img
-                            class="img-responsive pb-2" src="https://www.w3schools.com/w3images/ocean.jpg"></a>
-                    <a href="#" data-featherlight="https://www.w3schools.com/w3images/wedding.jpg"> <img
-                            class="img-responsive pb-2" src="https://www.w3schools.com/w3images/wedding.jpg"></a>
-                    <a href="#" data-featherlight="https://www.w3schools.com/w3images/mountainskies.jpg"> <img
-                            class="img-responsive pb-2" src="https://www.w3schools.com/w3images/mountainskies.jpg"></a>
+                    <a href="#" data-featherlight="https://www.w3schools.com/w3images/underwater.jpg">
+                        <img class="img-responsive pb-2" src="https://www.w3schools.com/w3images/underwater.jpg">
+                    </a>
+                    <a href="#" data-featherlight="https://www.w3schools.com/w3images/ocean.jpg">
+                        <img class="img-responsive pb-2" src="https://www.w3schools.com/w3images/ocean.jpg">
+                    </a>
+                    <a href="#" data-featherlight="https://www.w3schools.com/w3images/wedding.jpg">
+                        <img class="img-responsive pb-2" src="https://www.w3schools.com/w3images/wedding.jpg">
+                    </a>
+                    <a href="#" data-featherlight="https://www.w3schools.com/w3images/mountainskies.jpg">
+                        <img class="img-responsive pb-2" src="https://www.w3schools.com/w3images/mountainskies.jpg">
+                    </a>
 
                 </div>
                 <div class="col-md-3 p-1">
-                    <a href="#" data-featherlight="https://www.w3schools.com/w3images/wedding.jpg"> <img
-                            class="img-responsive pb-2" src="https://www.w3schools.com/w3images/wedding.jpg"></a>
-                    <a href="#" data-featherlight="https://www.w3schools.com/w3images/rocks.jpg"> <img
-                            class="img-responsive pb-2" src="https://www.w3schools.com/w3images/rocks.jpg"></a>
-                    <a href="#" data-featherlight="https://www.w3schools.com/w3images/falls2.jpg"> <img
-                            class="img-responsive pb-2" src="https://www.w3schools.com/w3images/falls2.jpg"></a>
+                    <a href="#" data-featherlight="https://www.w3schools.com/w3images/wedding.jpg">
+                        <img class="img-responsive pb-2" src="https://www.w3schools.com/w3images/wedding.jpg">
+                    </a>
+                    <a href="#" data-featherlight="https://www.w3schools.com/w3images/rocks.jpg">
+                        <img class="img-responsive pb-2" src="https://www.w3schools.com/w3images/rocks.jpg">
+                    </a>
+                    <a href="#" data-featherlight="https://www.w3schools.com/w3images/falls2.jpg">
+                        <img class="img-responsive pb-2" src="https://www.w3schools.com/w3images/falls2.jpg">
+                    </a>
 
 
                 </div>
                 <div class="col-md-3 p-1">
-                    <a href="#" data-featherlight="https://www.w3schools.com/w3images/underwater.jpg"> <img
-                            class="img-responsive pb-2" src="https://www.w3schools.com/w3images/underwater.jpg"></a>
-                    <a href="#" data-featherlight="https://www.w3schools.com/w3images/ocean.jpg"> <img
-                            class="img-responsive pb-2" src="https://www.w3schools.com/w3images/ocean.jpg"></a>
-                    <a href="#" data-featherlight="https://www.w3schools.com/w3images/wedding.jpg"> <img
-                            class="img-responsive pb-2" src="https://www.w3schools.com/w3images/wedding.jpg"></a>
-                    <a href="#" data-featherlight="https://www.w3schools.com/w3images/mountainskies.jpg"> <img
-                            class="img-responsive pb-2" src="https://www.w3schools.com/w3images/mountainskies.jpg"></a>
+                    <a href="#" data-featherlight="https://www.w3schools.com/w3images/underwater.jpg">
+                        <img class="img-responsive pb-2" src="https://www.w3schools.com/w3images/underwater.jpg">
+                    </a>
+                    <a href="#" data-featherlight="https://www.w3schools.com/w3images/ocean.jpg">
+                        <img class="img-responsive pb-2" src="https://www.w3schools.com/w3images/ocean.jpg">
+                    </a>
+                    <a href="#" data-featherlight="https://www.w3schools.com/w3images/wedding.jpg">
+                        <img class="img-responsive pb-2" src="https://www.w3schools.com/w3images/wedding.jpg">
+                    </a>
+                    <a href="#" data-featherlight="https://www.w3schools.com/w3images/mountainskies.jpg">
+                        <img class="img-responsive pb-2" src="https://www.w3schools.com/w3images/mountainskies.jpg">
+                    </a>
 
                 </div>
 
@@ -133,7 +146,7 @@
         </div>
     </section>
 
-    <div class="probootstrap-section">
+    <section class="probootstrap-section">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center section-heading probootstrap-animate">
@@ -143,20 +156,16 @@
             <div class="row">
                 <div class="col-md-6 probootstrap-animate" data-animate-effect="fadeInLeft">
 
-                    <div class="panel-group probootstrap-panel" id="accordion" role="tablist"
-                         aria-multiselectable="true">
+                    <div class="panel-group probootstrap-panel" id="accordion">
                         <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingOne">
+                            <div class="panel-heading" id="headingOne">
                                 <h3 class="panel-title">
-                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
-                                       aria-expanded="true" aria-controls="collapseOne">
-
+                                    <a role="button" data-toggle="collapse" href="#collapseOne">
                                         Web Design
                                     </a>
                                 </h3>
                             </div>
-                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
-                                 aria-labelledby="headingOne">
+                            <div id="collapseOne" class=" collapse show" data-parent="#accordion">
                                 <div class="panel-body">
                                     <p>Far far away, behind the word mountains, far from the countries Vokalia and
                                         Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
@@ -168,16 +177,15 @@
                             </div>
                         </div>
                         <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingTwo">
+                            <div class="panel-heading" id="headingTwo">
                                 <h3 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                                       href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <a class="collapsed" role="button" data-toggle="collapse"
+                                       href="#collapseTwo">
                                         WordPress Integration
                                     </a>
                                 </h3>
                             </div>
-                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
-                                 aria-labelledby="headingTwo">
+                            <div id="collapseTwo" class=" collapse" data-parent="#accordion">
                                 <div class="panel-body">
                                     <p>A small river named Duden flows by their place and supplies it with the necessary
                                         regelialia. It is a paradisematic country, in which roasted parts of sentences
@@ -188,16 +196,16 @@
                             </div>
                         </div>
                         <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingThree">
+                            <div class="panel-heading" id="headingThree">
                                 <h3 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                    <a class="collapsed" role="button" data-toggle="collapse"
                                        href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                         SEO &amp; Ranking
                                     </a>
                                 </h3>
                             </div>
-                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
-                                 aria-labelledby="headingThree">
+                            <div id="collapseThree" class=" collapse" data-parent="#accordion"
+                            >
                                 <div class="panel-body">
                                     <p>Even the all-powerful Pointing has no control about the blind texts it is an
                                         almost
@@ -217,7 +225,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- END section -->
 
     <section class="probootstrap-section probootstrap-section-lighter">
@@ -248,49 +256,29 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center section-heading probootstrap-animate">
-                    <h2>Recent Work</h2>
+                    <h2>Blog</h2>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 probootstrap-animate">
-                    <div class="probootstrap-card with-hover">
-                        <div class="probootstrap-card-media">
-                            <a href="single-page.html"><img src="img/slider_1.jpg" class="img-responsive img-border"
-                                                            alt="Free HTML5 Template by uicookies.com"></a>
-                        </div>
-                        <div class="probootstrap-card-text">
-                            <h2 class="probootstrap-card-heading mb0">Vokalia and Consonantia</h2>
-                            <p class="category">Design</p>
-                            <p><a href="single-page.html">View details</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 probootstrap-animate">
-                    <div class="probootstrap-card with-hover">
-                        <div class="probootstrap-card-media">
-                            <a href="single-page.html"><img src="img/slider_2.jpg" class="img-responsive img-border"
-                                                            alt="Free HTML5 Template by uicookies.com"></a>
-                        </div>
-                        <div class="probootstrap-card-text">
-                            <h2 class="probootstrap-card-heading mb0">Live the Blind Texts</h2>
-                            <p class="category">Model</p>
-                            <p><a href="single-page.html">View details</a></p>
+                @foreach($posts as $p)
+                    <div class="col-md-4 probootstrap-animate">
+                        <div class="probootstrap-card with-hover">
+                            <div class="probootstrap-card-media">
+                                <a href="{{route('blog.show',['id'=>$p->slug])}}"><img
+                                        src="{{Voyager::image($p->getThumbnail($p->image,'cropped'))}}"
+                                        class="img-responsive w-100 img-border"
+                                        alt="{{$p->title}}">
+                                </a>
+                            </div>
+                            <div class="probootstrap-card-text">
+                                <h2 class="probootstrap-card-heading mb0">{{$p->title}}</h2>
+                                <p class="category">{{$p->category->name}}</p>
+                                <p><a href="{{route('blog.show',['id'=>$p->slug])}}">View details</a></p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 probootstrap-animate">
-                    <div class="probootstrap-card with-hover">
-                        <div class="probootstrap-card-media">
-                            <a href="single-page.html"><img src="img/slider_3.jpg" class="img-responsive img-border"
-                                                            alt="Free HTML5 Template by uicookies.com"></a>
-                        </div>
-                        <div class="probootstrap-card-text">
-                            <h2 class="probootstrap-card-heading mb0">Behind the Word Mountains</h2>
-                            <p class="category">Website</p>
-                            <p><a href="single-page.html">View details</a></p>
-                        </div>
-                    </div>
-                </div>
+                @endforeach
+
             </div>
         </div>
     </section>
@@ -307,10 +295,13 @@
                 <div class="col-md-4  probootstrap-animate">
                     <div class="probootstrap-testimony">
                         <blockquote>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts. Separated they live in Bookmarksgrove right at the coast of
+                                the Semantics, a large language ocean.</p>
                         </blockquote>
                         <div class="author">
-                            <img src="img/person_1.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Theme by uicookies.com">
+                            <img src="img/person_1.jpg" class="img-responsive"
+                                 alt="Free HTML5 Bootstrap Theme by uicookies.com">
                             <div>John Doe <span>Designer at uicookies.com</span></div>
                         </div>
                     </div>
@@ -318,10 +309,13 @@
                 <div class="col-md-4  probootstrap-animate">
                     <div class="probootstrap-testimony">
                         <blockquote>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts. Separated they live in Bookmarksgrove right at the coast of
+                                the Semantics, a large language ocean.</p>
                         </blockquote>
                         <div class="author">
-                            <img src="img/person_2.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Theme by uicookies.com">
+                            <img src="img/person_2.jpg" class="img-responsive"
+                                 alt="Free HTML5 Bootstrap Theme by uicookies.com">
                             <div>John Doe <span>Designer at uicookies.com</span></div>
                         </div>
                     </div>
@@ -329,10 +323,13 @@
                 <div class="col-md-4  probootstrap-animate">
                     <div class="probootstrap-testimony">
                         <blockquote>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts. Separated they live in Bookmarksgrove right at the coast of
+                                the Semantics, a large language ocean.</p>
                         </blockquote>
                         <div class="author">
-                            <img src="img/person_3.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Theme by uicookies.com">
+                            <img src="img/person_3.jpg" class="img-responsive"
+                                 alt="Free HTML5 Bootstrap Theme by uicookies.com">
                             <div>John Doe <span>Designer at uicookies.com</span></div>
                         </div>
                     </div>
@@ -345,96 +342,97 @@
     <section class="probootstrap-section">
         <div class="container">
             <div class="row">
-            <div class="col-md-12 text-center section-heading probootstrap-animate">
-                <h2>Recent Work</h2>
-            </div>
-            <div class="row">
-                <div class="MultiCarousel text-center  container probootstrap-animate" data-items="1,2,3,5" data-slide="1" id="MultiCarousel"
-                     data-interval="1000">
-                    <div class="MultiCarousel-inner ">
-                        <div class="item">
-                            <div class="probootstrap-card probootstrap-person text-center">
-                                <div>
-                                    <img src="img/person_1.jpg" class="img-responsive"
-                                         alt="Free HTML5 Template by uicookies.com">
-                                </div>
+                <div class="col-md-12 text-center section-heading probootstrap-animate">
+                    <h2>Recent Work</h2>
+                </div>
+                <div class="row">
+                    <div class="MultiCarousel text-center  container probootstrap-animate" data-items="1,2,3,5"
+                         data-slide="1" id="MultiCarousel"
+                         data-interval="1000">
+                        <div class="MultiCarousel-inner ">
+                            <div class="item">
+                                <div class="probootstrap-card probootstrap-person text-center">
+                                    <div>
+                                        <img src="img/person_1.jpg" class="img-responsive"
+                                             alt="Free HTML5 Template by uicookies.com">
+                                    </div>
 
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="probootstrap-card probootstrap-person text-center">
-                                <div>
-                                    <img src="img/person_1.jpg" class="img-responsive"
-                                         alt="Free HTML5 Template by uicookies.com">
                                 </div>
-
                             </div>
-                        </div>
-                        <div class="item">
-                            <div class="probootstrap-card probootstrap-person text-center">
-                                <div>
-                                    <img src="img/person_1.jpg" class="img-responsive"
-                                         alt="Free HTML5 Template by uicookies.com">
+                            <div class="item">
+                                <div class="probootstrap-card probootstrap-person text-center">
+                                    <div>
+                                        <img src="img/person_1.jpg" class="img-responsive"
+                                             alt="Free HTML5 Template by uicookies.com">
+                                    </div>
+
                                 </div>
-
                             </div>
-                        </div>
-                        <div class="item">
-                            <div class="probootstrap-card probootstrap-person text-center">
-                                <div>
-                                    <img src="img/person_1.jpg" class="img-responsive"
-                                         alt="Free HTML5 Template by uicookies.com">
+                            <div class="item">
+                                <div class="probootstrap-card probootstrap-person text-center">
+                                    <div>
+                                        <img src="img/person_1.jpg" class="img-responsive"
+                                             alt="Free HTML5 Template by uicookies.com">
+                                    </div>
+
                                 </div>
-
                             </div>
-                        </div>
-                        <div class="item">
-                            <div class="probootstrap-card probootstrap-person text-center">
-                                <div>
-                                    <img src="img/person_1.jpg" class="img-responsive"
-                                         alt="Free HTML5 Template by uicookies.com">
+                            <div class="item">
+                                <div class="probootstrap-card probootstrap-person text-center">
+                                    <div>
+                                        <img src="img/person_1.jpg" class="img-responsive"
+                                             alt="Free HTML5 Template by uicookies.com">
+                                    </div>
+
                                 </div>
-
                             </div>
-                        </div>
-                        <div class="item">
-                            <div class="probootstrap-card probootstrap-person text-center">
-                                <div>
-                                    <img src="img/person_1.jpg" class="img-responsive"
-                                         alt="Free HTML5 Template by uicookies.com">
+                            <div class="item">
+                                <div class="probootstrap-card probootstrap-person text-center">
+                                    <div>
+                                        <img src="img/person_1.jpg" class="img-responsive"
+                                             alt="Free HTML5 Template by uicookies.com">
+                                    </div>
+
                                 </div>
-
                             </div>
-                        </div>
-                        <div class="item">
-                            <div class="probootstrap-card probootstrap-person text-center">
-                                <div>
-                                    <img src="img/person_1.jpg" class="img-responsive"
-                                         alt="Free HTML5 Template by uicookies.com">
+                            <div class="item">
+                                <div class="probootstrap-card probootstrap-person text-center">
+                                    <div>
+                                        <img src="img/person_1.jpg" class="img-responsive"
+                                             alt="Free HTML5 Template by uicookies.com">
+                                    </div>
+
                                 </div>
-
                             </div>
-                        </div>
-                        <div class="item">
-                            <div class="probootstrap-card probootstrap-person text-center">
-                                <div>
-                                    <img src="img/person_1.jpg" class="img-responsive"
-                                         alt="Free HTML5 Template by uicookies.com">
+                            <div class="item">
+                                <div class="probootstrap-card probootstrap-person text-center">
+                                    <div>
+                                        <img src="img/person_1.jpg" class="img-responsive"
+                                             alt="Free HTML5 Template by uicookies.com">
+                                    </div>
+
                                 </div>
-
                             </div>
+                            <div class="item">
+                                <div class="probootstrap-card probootstrap-person text-center">
+                                    <div>
+                                        <img src="img/person_1.jpg" class="img-responsive"
+                                             alt="Free HTML5 Template by uicookies.com">
+                                    </div>
+
+                                </div>
+                            </div>
+
                         </div>
+
+                        <button class="btn btn-primary leftLst"><i class="fa fa-chevron-left" aria-hidden="true"></i>
+                        </button>
+                        <button class="btn btn-primary rightLst"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        </button>
 
                     </div>
-
-                    <button class="btn btn-primary leftLst"><i class="fa fa-chevron-left" aria-hidden="true"></i>
-                    </button>
-                    <button class="btn btn-primary rightLst"><i class="fa fa-chevron-right" aria-hidden="true"></i>
-                    </button>
-
                 </div>
             </div>
-        </div>
         </div>
     </section>
 

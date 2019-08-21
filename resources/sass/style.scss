@@ -67,7 +67,7 @@ p, ul, ol, figure {
 
 a {
     transition: .3s all;
-    color: $brand-primary;
+    color: $brand-body-text-color;
 
     &:hover, &:focus {
         color: $brand-primary;

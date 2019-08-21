@@ -14,6 +14,7 @@
 Route::get('/', 'LinksController@index')->name('home');
 Route::get('/contact','LinksController@contact')->name('contact');
 Route::get('/about','LinksController@about')->name('about');
+Route::post('/contact','LinksController@contact_post')->name('contact.post');
 Route::get('/services','LinksController@services')->name('services');
 
 Route::prefix('products')->group(function () {

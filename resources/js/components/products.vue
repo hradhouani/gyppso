@@ -1,10 +1,10 @@
 <template>
     <div class="row w-100">
         <div class="col-md-3">
-            <div class="card">
+            <div class="">
                 <div class="card-body ">
                     <div class="form-group">
-                        <input type="text"  @input="search()" v-model="text" class="form-control">
+                        <input type="text"  @input="search()" placeholder="search" v-model="text" class="form-control">
                     </div>
                     <div class="custom-control custom-radio">
                         <input type="radio" id="customRadio" v-model="selected" v-on:change="search()" checked value="0"
@@ -33,10 +33,10 @@
                         <div class="probootstrap-card-media"><a v-bind:href="product.link"><img v-bind:src="product.image"
                                                                                              class="img-responsive img-border"></a>
                         </div>
-                        <div class="probootstrap-card-text"><h2 class="probootstrap-card-heading mb0">
-                            {{product.title}}</h2>
-                            <p class="category">{{product.category.name}}</p>
-                            <p><a v-bind:href="product.link">View details</a></p></div>
+                        <div class="probootstrap-card-text "><a v-bind:href="product.link"><h2 class="probootstrap-card-heading mb0 font-weight-bold ">
+                            {{product.title}}</h2></a>
+                            <p class="muted">{{product.category.name}} <span class="pull-right">{{product.price}} DT </span></p>
+                           </div>
                     </div>
                 </div>
 

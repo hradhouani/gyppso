@@ -23,31 +23,32 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 probootstrap-animate overlap">
-                    <form action="#" method="post" class="probootstrap-form probootstrap-form-box mb60">
+                    <form action="{{route('contact.post')}}" method="post" class="probootstrap-form probootstrap-form-box mb60">
+                        @csrf
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="fname">First Name</label>
-                                    <input type="text" class="form-control" id="fname" name="fname">
+                                    <input type="text" class="form-control" required id="fname" name="fname">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="lname">Last Name</label>
-                                    <input type="text" class="form-control" id="lname" name="lname">
+                                    <input type="text" class="form-control" required id="lname" name="lname">
                                 </div>
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="email">Email</label>
-                            <input type="email" class="form-control" id="email" name="email">
+                            <input type="email" class="form-control" id="email" required name="email">
                         </div>
                         <div class="form-group">
                             <label for="message">Message</label>
-                            <textarea cols="30" rows="10" class="form-control" id="message" name="message"></textarea>
+                            <textarea cols="30" rows="10" class="form-control" required id="message" name="message"></textarea>
                         </div>
                         <div class="form-group">
-                            <input type="submit" class="btn btn-primary" id="submit" name="submit" value="Send Message">
+                            <button type="submit" class="btn btn-primary" id="submit" name="submit" >Send Message</button>
                         </div>
                     </form>
                 </div>

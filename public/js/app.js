@@ -37301,7 +37301,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "row w-100" }, [
     _c("div", { staticClass: "col-md-3" }, [
-      _c("div", { staticClass: "card" }, [
+      _c("div", {}, [
         _c(
           "div",
           { staticClass: "card-body " },
@@ -37317,7 +37317,7 @@ var render = function() {
                   }
                 ],
                 staticClass: "form-control",
-                attrs: { type: "text" },
+                attrs: { type: "text", placeholder: "search" },
                 domProps: { value: _vm.text },
                 on: {
                   input: [
@@ -37448,18 +37448,26 @@ var render = function() {
                 ])
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "probootstrap-card-text" }, [
-                _c("h2", { staticClass: "probootstrap-card-heading mb0" }, [
-                  _vm._v("\n                        " + _vm._s(product.title))
+              _c("div", { staticClass: "probootstrap-card-text " }, [
+                _c("a", { attrs: { href: product.link } }, [
+                  _c(
+                    "h2",
+                    {
+                      staticClass:
+                        "probootstrap-card-heading mb0 font-weight-bold "
+                    },
+                    [
+                      _vm._v(
+                        "\n                        " + _vm._s(product.title)
+                      )
+                    ]
+                  )
                 ]),
                 _vm._v(" "),
-                _c("p", { staticClass: "category" }, [
-                  _vm._v(_vm._s(product.category.name))
-                ]),
-                _vm._v(" "),
-                _c("p", [
-                  _c("a", { attrs: { href: product.link } }, [
-                    _vm._v("View details")
+                _c("p", { staticClass: "muted" }, [
+                  _vm._v(_vm._s(product.category.name) + " "),
+                  _c("span", { staticClass: "pull-right" }, [
+                    _vm._v(_vm._s(product.price) + " DT ")
                   ])
                 ])
               ])

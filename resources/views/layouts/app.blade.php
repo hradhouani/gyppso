@@ -9,12 +9,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
-    <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css"
-          rel="stylesheet"/>
-    <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.css" type="text/css"
-          rel="stylesheet"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
-          integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI=" crossorigin="anonymous"/>
+
 
     <link rel="stylesheet" href="{{asset('css/styles-merged.css')}}">
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
@@ -33,7 +28,7 @@
 
     <header role="banner" class="probootstrap-header">
         <div class="container">
-            <a href="index.html" class="probootstrap-logo mr-2">{{config('app.name','')}}</a>
+            <a href="{{route('home')}}" class="probootstrap-logo mr-2">{{config('app.name','')}}</a>
 
             <a href="#" class="probootstrap-burger-menu visible-xs"><i>Menu</i></a>
             <div class="mobile-menu-overlay"></div>
