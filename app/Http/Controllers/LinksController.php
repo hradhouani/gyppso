@@ -40,5 +40,11 @@ class LinksController extends Controller
       return redirect()->back();
     }
 
+    public function comming()
+    {
+
+        return view('home');
+    }
+
 
 }

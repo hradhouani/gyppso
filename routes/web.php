@@ -11,7 +11,8 @@
 |
 */
 
-Route::get('/', 'LinksController@index')->name('home');
+Route::get('/', 'LinksController@comming')->name('comming');
+Route::get('/home', 'LinksController@index')->name('home');
 Route::get('/contact','LinksController@contact')->name('contact');
 Route::get('/about','LinksController@about')->name('about');
 Route::post('/contact','LinksController@contact_post')->name('contact.post');
