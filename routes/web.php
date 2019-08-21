@@ -11,6 +11,8 @@
 |
 */
 
+$auth = (env('APP_SSL', false)) ?'web' : "auth";
+
 Route::get('/', 'LinksController@comming')->name('comming');
 Route::get('/home', 'LinksController@index')->name('home');
 Route::get('/contact','LinksController@contact')->name('contact');
@@ -19,8 +21,8 @@ Route::post('/contact','LinksController@contact_post')->name('contact.post');
 Route::get('/services','LinksController@services')->name('services');
 
 Route::prefix('products')->group(function () {
-    Route::get('/','ProductController@index')->name('products');
-    Route::get('/{id}','ProductController@show')->name('product');
+    Route::get('/{category}','ProductController@index')->name('products');
+    Route::get('/{category}/{id}','ProductController@show')->name('product');
 });
 
 Route::prefix('blog')->group(function () {

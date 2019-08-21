@@ -21,7 +21,7 @@
     </section>
     <!-- END: slider  -->
 
-    <section class="probootstrap-section">
+    <section class="probootstrap-section" style="background-color: {{$category->color}} ">
         <div class="container">
             <div class="row mb50 probootstrap-animate" data-animate-effect="fadeIn">
                 <div class="col-md-8 p-0" id="galery">

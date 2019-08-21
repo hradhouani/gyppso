@@ -93,6 +93,15 @@ a {
     top: 0;
 }
 
+@media (max-width: 991px) {
+    .probootstrap-header {
+
+        position: relative !important;
+        background: $brand-black;
+        margin: 0 !important;
+    }
+}
+
 .probootstrap-logo {
     float: left;
     color: $brand-white;
@@ -198,8 +207,12 @@ a {
         margin: 0;
         padding: 0 10px;
         list-style: none;
-        display: inline;
+        display: inline !important;
         font-size: 18px;
+
+        .dropdown-menu{
+            background: rgba($brand-black,0.8) !important;
+        }
 
         .probootstrap-mobile-menu-active & {
             margin-bottom: 10px;

@@ -1941,6 +1941,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "products",
   props: ['data', 'categories'],
@@ -37300,139 +37304,7 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "row w-100" }, [
-    _c("div", { staticClass: "col-md-3" }, [
-      _c("div", {}, [
-        _c(
-          "div",
-          { staticClass: "card-body " },
-          [
-            _c("div", { staticClass: "form-group" }, [
-              _c("input", {
-                directives: [
-                  {
-                    name: "model",
-                    rawName: "v-model",
-                    value: _vm.text,
-                    expression: "text"
-                  }
-                ],
-                staticClass: "form-control",
-                attrs: { type: "text", placeholder: "search" },
-                domProps: { value: _vm.text },
-                on: {
-                  input: [
-                    function($event) {
-                      if ($event.target.composing) {
-                        return
-                      }
-                      _vm.text = $event.target.value
-                    },
-                    function($event) {
-                      return _vm.search()
-                    }
-                  ]
-                }
-              })
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "custom-control custom-radio" }, [
-              _c("input", {
-                directives: [
-                  {
-                    name: "model",
-                    rawName: "v-model",
-                    value: _vm.selected,
-                    expression: "selected"
-                  }
-                ],
-                staticClass: "custom-control-input",
-                attrs: {
-                  type: "radio",
-                  id: "customRadio",
-                  checked: "",
-                  value: "0",
-                  name: "optradio"
-                },
-                domProps: { checked: _vm._q(_vm.selected, "0") },
-                on: {
-                  change: [
-                    function($event) {
-                      _vm.selected = "0"
-                    },
-                    function($event) {
-                      return _vm.search()
-                    }
-                  ]
-                }
-              }),
-              _vm._v(" "),
-              _c(
-                "label",
-                {
-                  staticClass: "custom-control-label w-100",
-                  attrs: { for: "customRadio" }
-                },
-                [_vm._v("All ")]
-              )
-            ]),
-            _vm._v(" "),
-            _vm._l(_vm.cats, function(cat) {
-              return _c("div", { staticClass: "custom-control custom-radio" }, [
-                _c("input", {
-                  directives: [
-                    {
-                      name: "model",
-                      rawName: "v-model",
-                      value: _vm.selected,
-                      expression: "selected"
-                    }
-                  ],
-                  staticClass: "custom-control-input",
-                  attrs: {
-                    type: "radio",
-                    id: "customRadio" + cat.id,
-                    name: "optradio"
-                  },
-                  domProps: {
-                    value: cat.id,
-                    checked: _vm._q(_vm.selected, cat.id)
-                  },
-                  on: {
-                    change: [
-                      function($event) {
-                        _vm.selected = cat.id
-                      },
-                      function($event) {
-                        return _vm.search()
-                      }
-                    ]
-                  }
-                }),
-                _vm._v(" "),
-                _c(
-                  "label",
-                  {
-                    staticClass: "custom-control-label w-100",
-                    attrs: { for: "customRadio" + cat.id }
-                  },
-                  [
-                    _vm._v(_vm._s(cat.name) + " "),
-                    _c(
-                      "span",
-                      { staticClass: "pull-right badge badge-primary" },
-                      [_vm._v(_vm._s(cat.count))]
-                    )
-                  ]
-                )
-              ])
-            })
-          ],
-          2
-        )
-      ])
-    ]),
-    _vm._v(" "),
-    _c("div", { staticClass: "col-md-9" }, [
+    _c("div", { staticClass: "col-md-12" }, [
       _c(
         "div",
         { staticClass: "row" },

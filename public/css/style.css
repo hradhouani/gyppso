@@ -129,6 +129,14 @@ a.hover-reverse:active {
   top: 0;
 }
 
+@media (max-width: 991px) {
+  .probootstrap-header {
+    position: relative !important;
+    background: #2b2525;
+    margin: 0 !important;
+  }
+}
+
 .probootstrap-logo {
   float: left;
   color: #ffffff;
@@ -236,8 +244,12 @@ a.hover-reverse:active {
   margin: 0;
   padding: 0 10px;
   list-style: none;
-  display: inline;
+  display: inline !important;
   font-size: 18px;
+}
+
+.probootstrap-main-nav li .dropdown-menu {
+  background: rgba(43, 37, 37, 0.8) !important;
 }
 
 .probootstrap-mobile-menu-active .probootstrap-main-nav li {
