@@ -25,33 +25,77 @@
     <!-- START: header -->
 
     <div class="probootstrap-loader"></div>
-    <nav class="navbar navbar-expand-lg navbar-dark  probootstrap-header">
+{{--    <nav class="navbar navbar-expand-lg navbar-dark  probootstrap-header">--}}
+{{--        <div class="container">--}}
+{{--            <a class="navbar-brand" href="{{route('home')}}">{{config('app.name','')}}</a>--}}
+{{--            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"--}}
+{{--                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">--}}
+{{--                <span class="navbar-toggler-icon"></span>--}}
+{{--            </button>--}}
+{{--            <div class="d-flex flex-row order-2 order-lg-3">--}}
+{{--                <ul class="navbar-nav flex-row">--}}
+{{--                    <li class="nav-item"><a class="nav-link px-2" href="#"><span class="icon-facebook2"></span></a></li>--}}
+{{--                    <li class="nav-item"><a class="nav-link px-2" href="#"><span class="icon-twitter"></span></a></li>--}}
+{{--                    <li class="nav-item"><a class="nav-link px-2" href="#"><span class="icon-instagram2"></span></a>--}}
+{{--                    </li>--}}
+{{--                </ul>--}}
+
+{{--            </div>--}}
+{{--            <div class="collapse navbar-collapse" id="navbarNavDropdown">--}}
+{{--                <ul class="navbar-nav mr-auto">--}}
+{{--                    <li class="nav-item {{ (\Request::route()->getName() == 'home') ? 'active' : '' }}">--}}
+{{--                        <a class="nav-link" href="{{route('home')}}">Home </a>--}}
+{{--                    </li>--}}
+
+{{--                    <li class="nav-item dropdown {{ (\Request::route()->getName() == 'products') ? 'active' : '' }}">--}}
+{{--                        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"--}}
+{{--                           aria-haspopup="true" aria-expanded="false">--}}
+{{--                            Products--}}
+{{--                        </a>--}}
+{{--                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">--}}
+
+{{--                            @foreach($categories as $cat)--}}
+{{--                                <a class="dropdown-item"--}}
+{{--                                   href="{{route('products',['category'=>$cat->slug])}}">{{$cat->name}}</a>--}}
+{{--                            @endforeach--}}
+
+
+{{--                        </div>--}}
+{{--                    </li>--}}
+{{--                    <li class="nav-item {{ (\Request::route()->getName() == 'blog') ? 'active' : '' }}">--}}
+{{--                        <a class="nav-link" href="{{route('blog.index')}}">Blog</a>--}}
+{{--                    </li>--}}
+{{--                    <li class="nav-item {{ (\Request::route()->getName() == 'services') ? 'active' : '' }}">--}}
+{{--                        <a class="nav-link" href="{{route('services')}}">Services</a>--}}
+{{--                    </li>--}}
+{{--                    <li class="nav-item {{ (\Request::route()->getName() == 'about') ? 'active' : '' }}">--}}
+{{--                        <a class="nav-link" href="{{route('about')}}">About</a>--}}
+{{--                    </li>--}}
+{{--                    <li class="nav-item {{ (\Request::route()->getName() == 'contact') ? 'active' : '' }}">--}}
+{{--                        <a class="nav-link" href="{{route('contact')}}">Contact</a>--}}
+{{--                    </li>--}}
+
+{{--                </ul>--}}
+
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </nav>--}}
+    <header role="banner" class="probootstrap-header">
         <div class="container">
-            <a class="navbar-brand" href="{{route('home')}}">{{config('app.name','')}}</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="d-flex flex-row order-2 order-lg-3">
-                <ul class="navbar-nav flex-row">
-                    <li class="nav-item"><a class="nav-link px-2" href="#"><span class="icon-facebook2"></span></a></li>
-                    <li class="nav-item"><a class="nav-link px-2" href="#"><span class="icon-twitter"></span></a></li>
-                    <li class="nav-item"><a class="nav-link px-2" href="#"><span class="icon-instagram2"></span></a>
-                    </li>
-                </ul>
+            <a href="index.html" class="probootstrap-logo mr-2">{{config('app.name','')}}</a>
 
-            </div>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item {{ (\Request::route()->getName() == 'home') ? 'active' : '' }}">
-                        <a class="nav-link" href="{{route('home')}}">Home </a>
-                    </li>
+            <a href="#" class="probootstrap-burger-menu visible-xs"><i>Menu</i></a>
+            <div class="mobile-menu-overlay"></div>
 
-                    <li class="nav-item dropdown {{ (\Request::route()->getName() == 'products') ? 'active' : '' }}">
-                        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                           aria-haspopup="true" aria-expanded="false">
-                            Products
-                        </a>
+            <nav role="navigation" class="probootstrap-nav hidden-xs ml-auto">
+                <ul class="probootstrap-main-nav">
+                    <li class="{{ (\Request::route()->getName() == 'home') ? 'active' : '' }}">
+                        <a href="{{route('home')}}">Home</a>
+
+                    </li>
+                    <li class="{{ (\Request::route()->getName() == 'products') ? 'active' : '' }} dropdown">
+                        <a  class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">Products</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 
                             @foreach($categories as $cat)
@@ -61,25 +105,36 @@
 
 
                         </div>
-                    </li>
-                    <li class="nav-item {{ (\Request::route()->getName() == 'blog') ? 'active' : '' }}">
-                        <a class="nav-link" href="{{route('blog.index')}}">Blog</a>
-                    </li>
-                    <li class="nav-item {{ (\Request::route()->getName() == 'services') ? 'active' : '' }}">
-                        <a class="nav-link" href="{{route('services')}}">Services</a>
-                    </li>
-                    <li class="nav-item {{ (\Request::route()->getName() == 'about') ? 'active' : '' }}">
-                        <a class="nav-link" href="{{route('about')}}">About</a>
-                    </li>
-                    <li class="nav-item {{ (\Request::route()->getName() == 'contact') ? 'active' : '' }}">
-                        <a class="nav-link" href="{{route('contact')}}">Contact</a>
-                    </li>
 
+                    </li>
+                    <li class="{{ (\Request::route()->getName() == 'blog') ? 'active' : '' }}"><a
+                            href="{{route('blog.index')}}">Blog</a></li>
+                    <li class="{{ (\Request::route()->getName() == 'services') ? 'active' : '' }}"><a
+                            href="{{route('services')}}">Services</a></li>
+                    <li class="{{ (\Request::route()->getName() == 'about') ? 'active' : '' }}"><a
+                            href="{{route('about')}}">About</a></li>
+                    <li class="{{ (\Request::route()->getName() == 'contact') ? 'active' : '' }}"><a
+                            href="{{route('contact')}}">Contact</a></li>
                 </ul>
-
-            </div>
+                <ul class="probootstrap-right-nav hidden-xs">
+                    <li><a href="#"><i class="icon-twitter"></i></a></li>
+                    <li><a href="#"><i class="icon-facebook2"></i></a></li>
+                    <li><a href="#"><i class="icon-instagram2"></i></a></li>
+                </ul>
+                <div class="extra-text visible-xs">
+                    <a href="#" class="probootstrap-burger-menu"><i>Menu</i></a>
+                    <h5>Address</h5>
+                    <p>198 West 21th Street, Suite 721 New York NY 10016</p>
+                    <h5>Connect</h5>
+                    <ul class="social-buttons">
+                        <li><a href="#"><i class="icon-twitter"></i></a></li>
+                        <li><a href="#"><i class="icon-facebook2"></i></a></li>
+                        <li><a href="#"><i class="icon-instagram2"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-    </nav>
+    </header>
 
     @yield('content')
 

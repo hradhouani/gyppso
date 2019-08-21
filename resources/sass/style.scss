@@ -210,8 +210,31 @@ a {
         display: inline !important;
         font-size: 18px;
 
-        .dropdown-menu{
-            background: rgba($brand-black,0.8) !important;
+        .dropdown-menu {
+            background: rgba($brand-black, 0.8) !important;
+        }
+
+        @media (max-width: 766px) {
+            .dropdown-menu {
+                position: initial !important;
+
+                transform: initial !important;
+                width: 100%;
+                box-shadow: none !important;
+                border: none !important;
+             background: white !important;
+                padding: 5px 0 !important;
+                margin: 0 !important;
+                margin-bottom: 10px !important;
+
+                a{
+
+                    padding-left: 30px !important;
+                    font-size: 14px !important;
+                    color: $brand-black !important;
+                }
+
+            }
         }
 
         .probootstrap-mobile-menu-active & {
@@ -739,7 +762,7 @@ a {
         font-weight: 300;
     }
 
-    p{
+    p {
         color: $brand-white;
     }
 
@@ -1201,7 +1224,7 @@ figure {
                 top: 0;
                 left: 0;
                 width: 100%;
-                background: rgba($brand-black,0.8);
+                background: rgba($brand-black, 0.8);
                 transition: .2s all ease-out;
             }
         }

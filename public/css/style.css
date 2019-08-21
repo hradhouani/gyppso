@@ -252,6 +252,26 @@ a.hover-reverse:active {
   background: rgba(43, 37, 37, 0.8) !important;
 }
 
+@media (max-width: 766px) {
+  .probootstrap-main-nav li .dropdown-menu {
+    position: initial !important;
+    transform: initial !important;
+    width: 100%;
+    box-shadow: none !important;
+    border: none !important;
+    background: white !important;
+    padding: 5px 0 !important;
+    margin: 0 !important;
+    margin-bottom: 10px !important;
+  }
+
+  .probootstrap-main-nav li .dropdown-menu a {
+    padding-left: 30px !important;
+    font-size: 14px !important;
+    color: #2b2525 !important;
+  }
+}
+
 .probootstrap-mobile-menu-active .probootstrap-main-nav li {
   margin-bottom: 10px;
   display: block;
