@@ -11,7 +11,6 @@
 |
 */
 
-$auth = (env('APP_SSL', false)) ?'web' : "auth";
 
 Route::get('/', 'LinksController@comming')->name('comming');
 Route::get('/home', 'LinksController@index')->name('home');
