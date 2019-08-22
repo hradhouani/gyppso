@@ -105,6 +105,7 @@ jQuery(document).ready(function() {
     }
     $('[data-toggle="popover"]').popover();
 
+
     // Your custom js code goes here.
 
 });

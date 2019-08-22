@@ -210,9 +210,45 @@ a {
         display: inline !important;
         font-size: 18px;
 
-        .dropdown-menu {
-            background: rgba($brand-black, 0.8) !important;
+
+
+
+
+            .dropdown-menu {
+                background: rgba($brand-black, 0.8) !important;
+                padding: 5px 0 !important;
+
+                .dropdown-item {
+                    font-weight: 100 !important;
+
+                    img{
+                        height: 100px;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+
+                    &:focus, &:hover {
+                        background-color: initial !important;
+                    }
+                }
+            }
+
+
+
+        @media screen and (min-width: 768px) {
+
+            &.megamenu ul {
+                padding-bottom: 15px;
+            }
+
+            &.megamenu > .dropdown-menu {
+                left: -10vw !important;
+                padding: 10px 15px !important;
+                min-width: 80vw;
+            }
+
         }
+
 
         @media (max-width: 766px) {
             .dropdown-menu {
@@ -220,18 +256,17 @@ a {
 
                 transform: initial !important;
                 width: 100%;
-                box-shadow: none !important;
                 border: none !important;
-             background: white !important;
-                padding: 5px 0 !important;
+                border: 1px solid white !important;
+
                 margin: 0 !important;
                 margin-bottom: 10px !important;
 
-                a{
+                a {
 
                     padding-left: 30px !important;
                     font-size: 14px !important;
-                    color: $brand-black !important;
+
                 }
 
             }
@@ -252,7 +287,7 @@ a {
             text-decoration: none;
 
             &:hover {
-                color: $brand-white;
+                color: $brand-primary;
             }
 
             .probootstrap-mobile-menu-active.show & {

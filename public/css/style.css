@@ -250,6 +250,34 @@ a.hover-reverse:active {
 
 .probootstrap-main-nav li .dropdown-menu {
   background: rgba(43, 37, 37, 0.8) !important;
+  padding: 5px 0 !important;
+}
+
+.probootstrap-main-nav li .dropdown-menu .dropdown-item {
+  font-weight: 100 !important;
+}
+
+.probootstrap-main-nav li .dropdown-menu .dropdown-item img {
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.probootstrap-main-nav li .dropdown-menu .dropdown-item:focus,
+.probootstrap-main-nav li .dropdown-menu .dropdown-item:hover {
+  background-color: initial !important;
+}
+
+@media screen and (min-width: 768px) {
+  .probootstrap-main-nav li.megamenu ul {
+    padding-bottom: 15px;
+  }
+
+  .probootstrap-main-nav li.megamenu > .dropdown-menu {
+    left: -10vw !important;
+    padding: 10px 15px !important;
+    min-width: 80vw;
+  }
 }
 
 @media (max-width: 766px) {
@@ -257,10 +285,8 @@ a.hover-reverse:active {
     position: initial !important;
     transform: initial !important;
     width: 100%;
-    box-shadow: none !important;
     border: none !important;
-    background: white !important;
-    padding: 5px 0 !important;
+    border: 1px solid white !important;
     margin: 0 !important;
     margin-bottom: 10px !important;
   }
@@ -268,7 +294,6 @@ a.hover-reverse:active {
   .probootstrap-main-nav li .dropdown-menu a {
     padding-left: 30px !important;
     font-size: 14px !important;
-    color: #2b2525 !important;
   }
 }
 
@@ -288,7 +313,7 @@ a.hover-reverse:active {
 }
 
 .probootstrap-main-nav li a:hover {
-  color: #ffffff;
+  color: #22eaaa;
 }
 
 .probootstrap-mobile-menu-active.show .probootstrap-main-nav li a {
