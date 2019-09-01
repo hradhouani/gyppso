@@ -55,7 +55,8 @@
 
                 </div>
                 <div class="col-md-4">
-                    {!! $product->body !!}
+                <h1>{{$product->title}}</h1>
+                <p>{!! $product->body !!}</p>
                 </div>
             </div>
 
