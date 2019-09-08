@@ -6,6 +6,7 @@
     <title>{{config('app.name','')}} | {{\Request::route()->getName()}}</title>
     <meta name="description" content="{{config('app.name','')}}">
     <meta name="keywords" content="">
+
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
@@ -25,64 +26,10 @@
     <!-- START: header -->
 
     <div class="probootstrap-loader"></div>
-    {{--    <nav class="navbar navbar-expand-lg navbar-dark  probootstrap-header">--}}
-    {{--        <div class="container">--}}
-    {{--            <a class="navbar-brand" href="{{route('home')}}">{{config('app.name','')}}</a>--}}
-    {{--            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"--}}
-    {{--                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">--}}
-    {{--                <span class="navbar-toggler-icon"></span>--}}
-    {{--            </button>--}}
-    {{--            <div class="d-flex flex-row order-2 order-lg-3">--}}
-    {{--                <ul class="navbar-nav flex-row">--}}
-    {{--                    <li class="nav-item"><a class="nav-link px-2" href="#"><span class="icon-facebook2"></span></a></li>--}}
-    {{--                    <li class="nav-item"><a class="nav-link px-2" href="#"><span class="icon-twitter"></span></a></li>--}}
-    {{--                    <li class="nav-item"><a class="nav-link px-2" href="#"><span class="icon-instagram2"></span></a>--}}
-    {{--                    </li>--}}
-    {{--                </ul>--}}
 
-    {{--            </div>--}}
-    {{--            <div class="collapse navbar-collapse" id="navbarNavDropdown">--}}
-    {{--                <ul class="navbar-nav mr-auto">--}}
-    {{--                    <li class="nav-item {{ (\Request::route()->getName() == 'home') ? 'active' : '' }}">--}}
-    {{--                        <a class="nav-link" href="{{route('home')}}">Home </a>--}}
-    {{--                    </li>--}}
-
-    {{--                    <li class="nav-item dropdown {{ (\Request::route()->getName() == 'products') ? 'active' : '' }}">--}}
-    {{--                        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"--}}
-    {{--                           aria-haspopup="true" aria-expanded="false">--}}
-    {{--                            Products--}}
-    {{--                        </a>--}}
-    {{--                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">--}}
-
-    {{--                            @foreach($categories as $cat)--}}
-    {{--                                <a class="dropdown-item"--}}
-    {{--                                   href="{{route('products',['category'=>$cat->slug])}}">{{$cat->name}}</a>--}}
-    {{--                            @endforeach--}}
-
-
-    {{--                        </div>--}}
-    {{--                    </li>--}}
-    {{--                    <li class="nav-item {{ (\Request::route()->getName() == 'blog') ? 'active' : '' }}">--}}
-    {{--                        <a class="nav-link" href="{{route('blog.index')}}">Blog</a>--}}
-    {{--                    </li>--}}
-    {{--                    <li class="nav-item {{ (\Request::route()->getName() == 'services') ? 'active' : '' }}">--}}
-    {{--                        <a class="nav-link" href="{{route('services')}}">Services</a>--}}
-    {{--                    </li>--}}
-    {{--                    <li class="nav-item {{ (\Request::route()->getName() == 'about') ? 'active' : '' }}">--}}
-    {{--                        <a class="nav-link" href="{{route('about')}}">About</a>--}}
-    {{--                    </li>--}}
-    {{--                    <li class="nav-item {{ (\Request::route()->getName() == 'contact') ? 'active' : '' }}">--}}
-    {{--                        <a class="nav-link" href="{{route('contact')}}">Contact</a>--}}
-    {{--                    </li>--}}
-
-    {{--                </ul>--}}
-
-    {{--            </div>--}}
-    {{--        </div>--}}
-    {{--    </nav>--}}
     <header role="banner" class="probootstrap-header">
         <div class="container">
-            <a href="index.html" class="probootstrap-logo mr-2">{{config('app.name','')}}</a>
+            <a href="index.html" class="probootstrap-logo mr-2"><img src="{{asset('img/logo.jpg')}}" alt="" style="    height: 55px;"></a>
 
             <a href="#" class="probootstrap-burger-menu visible-xs"><i>Menu</i></a>
             <div class="mobile-menu-overlay"></div>
