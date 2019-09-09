@@ -21,7 +21,7 @@
     <section class="probootstrap-section" style="background-color: {{$category->color}} ">
         <div class="container">
             <div class="row mb50 probootstrap-animate" data-animate-effect="fadeIn">
-                <div class="col-md-8 p-0" id="galery">
+                <div class="col-md-6 p-0" id="galery">
 
                     <div class="row px-3">
                         @foreach(json_decode($product->gallery) as $i => $image)
@@ -43,7 +43,7 @@
 
                         @foreach(json_decode($product->gallery) as $i => $image)
                             <div class=" {{count(json_decode($product->gallery)) > 6 ? 'col' :'col-2'}} p-0">
-                                <img class="demo cursor"
+                                <img class="demo cursor thumbnail"
                                      src="{{ Voyager::image($product->getThumbnail($image, 'cropped')) }}"
                                      style="width:100%" onclick="currentSlide({{$i+1}})" alt="The Woods">
                             </div>
@@ -53,7 +53,7 @@
 
 
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                 <h1 class="font-weight-bold">{{$product->title}}</h1>
                 <p>{!! $product->body !!}</p>
                 </div>
