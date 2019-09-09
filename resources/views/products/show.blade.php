@@ -28,7 +28,7 @@
                             <div class="mySlides w-100">
                                 <div class="numbertext">{{$i+1}} / {{count(json_decode($product->gallery))}}</div>
                                 <a href="#" data-featherlight="{{ Voyager::image($image) }}"> <img
-                                        src="{{ Voyager::image($product->getThumbnail($image, 'medium')) }}"
+                                        src="{{ Voyager::image($image) }}"
                                         style="width:100%"></a>
                             </div>
 
