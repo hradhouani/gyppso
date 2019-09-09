@@ -43,7 +43,7 @@
 
                         @foreach(json_decode($product->gallery) as $i => $image)
                             <div class=" {{count(json_decode($product->gallery)) > 6 ? 'col' :'col-2'}} p-0">
-                                <img class="demo cursor thumbnail"
+                                <img class="demo cursor px-1"
                                      src="{{ Voyager::image($product->getThumbnail($image, 'cropped')) }}"
                                      style="width:100%" onclick="currentSlide({{$i+1}})" alt="The Woods">
                             </div>
