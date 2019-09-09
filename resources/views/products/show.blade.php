@@ -8,7 +8,7 @@
                     <div class="row">
                         <div class="col-md-12 text-center">
                             <div class="slides-text probootstrap-animate" data-animate-effect="fadeIn">
-                                
+
                             </div>
                         </div>
                     </div>
@@ -39,14 +39,16 @@
                         <a class="next" onclick="plusSlides(1)">❯</a>
                     </div>
                     <div class="row px-3">
+                        <div class="row justify-content-center">
+
                         @foreach(json_decode($product->gallery) as $i => $image)
-                            <div class="col p-0">
+                            <div class=" {{count(json_decode($product->gallery)) > 6 ? 'col' :'col-2'}} p-0">
                                 <img class="demo cursor"
                                      src="{{ Voyager::image($product->getThumbnail($image, 'cropped')) }}"
                                      style="width:100%" onclick="currentSlide({{$i+1}})" alt="The Woods">
                             </div>
                         @endforeach
-
+                        </div>
                     </div>
 
 
