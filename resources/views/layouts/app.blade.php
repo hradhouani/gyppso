@@ -34,7 +34,7 @@
             <a href="#" class="probootstrap-burger-menu visible-xs"><i>Menu</i></a>
             <div class="mobile-menu-overlay"></div>
 
-            <nav role="navigation" class="probootstrap-nav hidden-xs ml-auto">
+            <nav role="navigation" class="probootstrap-nav hidden-xs ml-auto ">
                 <ul class="probootstrap-main-nav">
                     <li class="{{ (\Request::route()->getName() == 'home') ? 'active' : '' }}">
                         <a href="{{route('home')}}">Home</a>
