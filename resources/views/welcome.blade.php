@@ -9,6 +9,7 @@
                     <a href="#" data-featherlight="{{asset("img/image1.jpg")}}">
                         <img class="img-responsive w-100 pb-2" src="{{asset("img/image1.jpg")}}">
                     </a>
+                    <h1 style="margin-top: 100px;font-size: 80px"> Espace smart</h1>
 
 
                 </div>
@@ -105,7 +106,7 @@
     <section class="probootstrap-section">
         <div class="container">
             <div class="row">
-                <div class="col-md-3 p-1">
+                <div class="col-md-5 p-1">
 
                     <a href="#" data-featherlight="{{asset("img/image27.jpg")}}">
                         <img class="img-responsive w-100 pb-2" src="{{asset("img/image27.jpg")}}">
@@ -113,10 +114,10 @@
 
 
                 </div>
-                <div class="col-md-6 p-1">
+                <div class="col-md-4 p-1">
 
                     <h1 class="text-center" style="    font-size: 50px">FACADE MORAL <br> MURAL</h1>
-                    <hr style="border-top-width: 4px;;margin-bottom: 50px">
+                    <hr style="width: 30%;border-top-width: 4px;;margin-bottom: 50px">
 
                     <a href="#" data-featherlight="{{asset("img/image18.jpg")}}">
                         <img class="img-responsive w-100 pb-2" src="{{asset("img/image18.jpg")}}">
@@ -150,6 +151,9 @@
 
                     <a href="#" data-featherlight="{{asset("img/image29.jpg")}}">
                         <img class="img-responsive w-100 pb-2" src="{{asset("img/image29.jpg")}}">
+                    </a>
+                    <a href="#" data-featherlight="{{asset("img/image11.jpg")}}">
+                        <img class="img-responsive w-100 pb-2" src="{{asset("img/image11.jpg")}}">
                     </a>
 
 
@@ -219,7 +223,7 @@
                 <div class="col-md-4 p-1">
 
                 <h1 style="font-size: 70px; text-align: center;">systhem de plafond</h1>
-                    <hr style="border-top-width: 4px;;margin-bottom: 50px">
+                    <hr style="width: 30%;border-top-width: 4px;;margin-bottom: 50px">
 
                     <a href="#" data-featherlight="{{asset("img/image15.jpg")}}">
                         <img class="img-responsive w-100 pb-2" src="{{asset("img/image22.jpg")}}">
